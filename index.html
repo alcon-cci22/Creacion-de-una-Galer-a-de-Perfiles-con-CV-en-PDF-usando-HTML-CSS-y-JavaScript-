@@ -1,0 +1,184 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Colaboradores - Pro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="estilos-final.css"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+</head>
+<body>
+
+  <button id="theme-toggle" class="theme-btn" title="Cambiar tema">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <div class="container">
+    <div class="slider-wrapper">
+      <div class="main-card" id="slider">
+        
+        <div class="cards-group">
+          <article class="card">
+            <div class="content">
+              <div class="img-container"><img src="images/img1.jpg" alt="Michael"></div>
+              <div class="details"><h3 class="name">Michael</h3><p class="profile">Junior Developer</p></div>
+              <button class="menu-button"><i class="fas fa-share-alt"></i></button>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+              <button class="btn-cv" data-pdf="pdf/Michael.pdf">Curriculum <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="card">
+            <div class="content">
+              <div class="img-container"><img src="images/img2.jpg" alt="Melanie"></div>
+              <div class="details"><h3 class="name">Melanie</h3><p class="profile">Mid-Level Developer</p></div>
+              <button class="menu-button"><i class="fas fa-share-alt"></i></button>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+              <button class="btn-cv" data-pdf="pdf/Melanie.pdf">Curriculum <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="cards-group">
+          <article class="card">
+            <div class="content">
+              <div class="img-container"><img src="images/img3.jpg" alt="Jack"></div>
+              <div class="details"><h3 class="name">Jack</h3><p class="profile">Senior Developer</p></div>
+              <button class="menu-button"><i class="fas fa-share-alt"></i></button>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+              <button class="btn-cv" data-pdf="pdf/Jack.pdf">Curriculum <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="card">
+            <div class="content">
+              <div class="img-container"><img src="images/img4.jpg" alt="Eliot"></div>
+              <div class="details"><h3 class="name">Eliot</h3><p class="profile">Tech Lead</p></div>
+              <button class="menu-button"><i class="fas fa-share-alt"></i></button>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+              <button class="btn-cv" data-pdf="pdf/Eliot.pdf">Curriculum <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="cards-group">
+          <article class="card">
+            <div class="content">
+              <div class="img-container"><img src="images/img5.jpg" alt="Angela"></div>
+              <div class="details"><h3 class="name">Angela</h3><p class="profile">Software Architect</p></div>
+              <button class="menu-button"><i class="fas fa-share-alt"></i></button>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+              <button class="btn-cv" data-pdf="./pdf/Angela.pdf">Curriculum <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="card">
+            <div class="content">
+              <div class="img-container"><img src="images/img6.jpg" alt="Melody"></div>
+              <div class="details"><h3 class="name">Melody</h3><p class="profile">CTO</p></div>
+              <button class="menu-button"><i class="fas fa-share-alt"></i></button>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+              <button class="btn-cv" data-pdf="./pdf/Melody.pdf">Curriculum <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="button-1">
+      <button id="prevBtn"><i class="fas fa-chevron-left"></i> Anterior</button>
+      <button id="nextBtn">Siguiente <i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <section class="colaboradores">
+    <h1 class="titulo">Nuestros Colaboradores</h1>
+    <p class="texto">Contamos con un equipo de expertos dedicados a transformar ideas en realidad tecnológica.</p>
+  </section>
+
+  <div id="pdfModal" class="pdf-modal" role="dialog" aria-modal="true" aria-labelledby="pdfTitle">
+    <section class="pdf-viewer">
+      <header class="pdf-toolbar">
+        <div class="pdf-file-info">
+          <span class="pdf-file-icon"><i class="fas fa-file-pdf"></i></span>
+          <div>
+            <h2 id="pdfTitle">Vista previa del currículum</h2>
+            <p id="pdfFileName">Documento PDF</p>
+          </div>
+        </div>
+        <div class="pdf-toolbar-actions">
+          <button id="zoomOut" class="pdf-icon-btn" type="button" aria-label="Reducir zoom" title="Reducir zoom"><i class="fas fa-minus"></i></button>
+          <span id="zoomLevel" class="zoom-level">100%</span>
+          <button id="zoomIn" class="pdf-icon-btn" type="button" aria-label="Aumentar zoom" title="Aumentar zoom"><i class="fas fa-plus"></i></button>
+          <button id="downloadPdf" class="pdf-icon-btn" type="button" aria-label="Abrir PDF en otra pestaña" title="Abrir PDF en otra pestaña"><i class="fas fa-up-right-from-square"></i></button>
+          <button class="close-modal pdf-close" type="button" aria-label="Cerrar vista previa" title="Cerrar"><i class="fas fa-times"></i></button>
+        </div>
+      </header>
+      <div class="pdf-stage" id="pdfStage">
+        <div class="pdf-loading" id="pdfLoading"><span class="pdf-spinner"></span><p>Cargando documento...</p></div>
+        <div class="pdf-error" id="pdfError" hidden>
+          <i class="fas fa-triangle-exclamation"></i>
+          <p>No se pudo cargar el PDF.</p>
+          <small>Verifica que la ruta del archivo sea correcta y que el documento exista.</small>
+        </div>
+        <div class="canvas-wrapper" id="canvasWrapper">
+          <canvas id="pdfCanvas"></canvas>
+        </div>
+      </div>
+      <footer class="pdf-controls">
+        <button id="prevPage" class="pdf-nav-btn" type="button"><i class="fas fa-chevron-left"></i><span>Anterior</span></button>
+        <div class="pdf-page-status"><span class="page-label">PÁGINA</span><strong id="pageNum">1 / 1</strong></div>
+        <button id="nextPage" class="pdf-nav-btn" type="button"><span>Siguiente</span><i class="fas fa-chevron-right"></i></button>
+      </footer>
+    </section>
+  </div>
+
+   <script src="script.js" defer></script> 
+</body>
+</html>
+
+
+
